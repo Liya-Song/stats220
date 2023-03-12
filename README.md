@@ -14,7 +14,7 @@
 - Improve the ability of organization. 🌟
 
 ### Link
-- This is a link of my [github](https://github.com/Liya-Song/stats220/edit/main/README.md)
+- This is a link of my [github](https://github.com/Liya-Song)
 - Just want to show a cute cat for fun:
 ![cat](https://media.tenor.com/f_saBHiUTz0AAAAM/cute-cat.gif)
 
