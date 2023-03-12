@@ -15,6 +15,6 @@
 
 ### Link
 - This is a link of my [github](https://github.com/Liya-Song)
-- Just want to show a cute cat for fun:
+- Just want to show a cute cat to cheer you up:
 ![cat](https://media.tenor.com/f_saBHiUTz0AAAAM/cute-cat.gif)
 
