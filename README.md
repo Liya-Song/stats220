@@ -4,7 +4,7 @@
 ### Introduction
 1. This repository is called **stats220** because it contains **all the important projects of stats220** in **2023 S1**.
 2. I wll try my best to make this repository **understandable** and **easy to read**.
-3. This repository will contain **statistics knowledge, R code, comments and reports** such as `magick` in Project1.
+3. This repository will contain **statistics knowledge, R code, comments and reports** such as `image_read` in `magick` in Project1.
 
 ### Purpose
 *The purpose if the repository includes:*
