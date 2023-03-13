@@ -383,29 +383,29 @@ into my meme.</p>
 
 
 # First square
-first_text &lt;- image_blank(width = 50, height = 50, color = &quot;#000000&quot;) %&gt;% image_annotate(text = &quot;Before\n I run my code:&quot;,
-                                                                                           color =&quot;#FFFFFF&quot;, size = 20, font = &quot;Impact&quot;, gravity = &quot;center&quot;)
+first_text &lt;- image_blank(width = 200, height = 200, color = &quot;#000000&quot;) %&gt;% image_annotate(text = &quot;The code\n I want to write:&quot;, color =&quot;#FFFFFF&quot;, size = 30, font = &quot;Impact&quot;, gravity = &quot;center&quot;)
 # Second square
-happy_cat &lt;- image_read(&quot;https://i.pinimg.com/736x/25/b2/5f/25b25ffbf2a0f7b325fb69cc47517a52.jpg&quot;) %&gt;%image_resize(&quot;50x50!&quot;)
+tiger &lt;- image_read(&quot;https://i.pinimg.com/564x/c7/4a/da/c74ada21c83d3d479e5e2c6dd71e2720.jpg&quot;) %&gt;%image_resize(&quot;200x200!&quot;)
 
 
 # Third square
-second_text &lt;- image_blank(width = 50, height = 50, color = &quot;#000000&quot;) %&gt;% image_annotate(text = &quot;After\n I run my code&quot;, 
-                                                                                           color =&quot;#FFFFFF&quot;, size = 20,font = &quot;Impact&quot;, gravity = &quot;center&quot;)
+second_text &lt;- image_blank(width = 200, height = 200, color = &quot;#000000&quot;) %&gt;% image_annotate(text = &quot;The code\n I actually write:&quot;, color =&quot;#FFFFFF&quot;, size = 30,font = &quot;Impact&quot;, gravity = &quot;center&quot;)
 
 # Forth square
-sad_cat = image_read(&quot;https://i2.wp.com/i.pinimg.com/564x/98/fc/88/98fc8863c7e68df57cd7ad7442f0ec18.jpg&quot;) %&gt;% image_resize(&quot;50x50!&quot;)
+cat = image_read(&quot;https://static.wikia.nocookie.net/creamheroes/images/8/8e/Rkiwamx2mo451.jpg/revision/latest/scale-to-width-down/250?cb=20210321203535&quot;) %&gt;% image_resize(&quot;200x200!&quot;)
 
 
-# combine first row
-first_row = c(first_text, happy_cat) %&gt;% image_append()
+# combine first row of squares
+first_row = c(first_text, tiger) %&gt;% image_append()
 
-# combine second row
-second_row = c(second_text, sad_cat) %&gt;% image_append()
+# combine second row of squares
+second_row = c(second_text, cat) %&gt;% image_append()
 
-# final meme
+# create the final meme
 meme = c(first_row, second_row) %&gt;% image_append(stack = TRUE)
-meme %&gt;% image_write(meme, &quot;my_meme.png&quot;)</code></pre>
+
+# save the final meme
+image_write(meme, &quot;my_meme.png&quot;)</code></pre>
 </div>
 <div id="my-animated-gif" class="section level2">
 <h2>My animated GIF</h2>
@@ -427,8 +427,9 @@ frame2 = pic2 %&gt;% image_annotate(text = &quot;I win!&quot;, size = 30, gravit
 frame3 = pic3 %&gt;% image_annotate(text = &quot;You\n lose!&quot;, size = 30, gravity = &quot;north&quot;)
 frame4 = pic4 %&gt;% image_annotate(text = &quot;You\n lose!&quot;, size = 30, gravity = &quot;north&quot;)
 
-#combine above and make final GIF
+# combine above
 frames &lt;- c(frame1, frame2, frame3, frame4)
+# make final GIF
 animation = image_animate(frames,fps = 1)
 image_write(animation, &quot;my_animation.gif&quot;)</code></pre>
 <pre class="css"><code>@import url(&#39;https://fonts.googleapis.com/css2?family=Poppins:wght@700&amp;family=Roboto:wght@700&amp;display=swap&#39;);
