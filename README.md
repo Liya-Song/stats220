@@ -8,10 +8,10 @@
 
 ### Purpose
 *The purpose if the repository includes:*
-- Gain marks for the assignment *(This is the most important purpose)*. 💗
-- Learn how to use github.💙
-- Express interest in computer science and statistics. 💚
-- Improve the ability of organization. 🌟
+- Gain marks for the **assignment** *(This is the most important purpose)*. 💗
+- Learn how to use **github**.💙
+- Express interest in **computer science and statistics**. 💚
+- Improve the ability of **organization**. 🌟
 
 ### Link
 - This is a link of my [github](https://github.com/Liya-Song)
